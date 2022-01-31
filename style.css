@@ -1,0 +1,103 @@
+body {
+    padding: 0;
+    margin: 0;
+    background-color: rgb(15,25,45);
+    font-family: sans-serif;
+}
+.container {
+    box-shadow: 0px 0px 20px rgb(0, 0, 0);
+    position: absolute;
+        top: 20%;
+        left: 50%; transform: translatex(-50%);
+    margin: 0 auto;
+    border-radius: 20px;
+    background-color: rgb(20, 40, 60);
+    width: 320px;
+    height: 550px;
+}
+.wrapper {
+    position: relative; top: 20px;
+    border-radius: 15px;
+    margin: 0px auto;
+    overflow: hidden;
+    width: 280px;
+    height: 280px;
+}
+    .bigimage {
+        height: 280px;
+        width: 280px;
+    }
+    .overlay {
+        position: absolute;
+        padding: 116px;
+        top: 0;
+        opacity: 0;
+        background-color: rgba(0, 255, 255, 0.3);
+        transition: .5s;
+    }
+    .overlay:hover {
+        opacity: 1;
+    }
+.texts {
+    margin: 25px 25px 0px 25px;
+}
+.titlink {
+    color: white;
+    font-weight: 700;
+    font-size: 1.5rem;
+    text-decoration: none;
+}
+    .titlink:hover {
+        color: rgba(0, 255, 255);
+    }
+.descrip{
+    font-size: .9rem;
+    color: rgb(140, 170, 210);
+}
+.sidenotes {
+    margin: 0 25px;
+    display: flex;
+    justify-content: space-between;
+    vertical-align: middle;
+}
+.nleft {
+    font-weight: bold;
+    color: rgba(0, 255, 255);
+}
+.nright {
+    font-size: .9rem;
+    color: rgb(140, 170, 210);
+}
+.nicon {
+    position: relative;
+    top: 2px;
+}
+hr {
+    width: 80%;
+    opacity: .3;
+
+}
+.footbox {
+    margin: 15px 25px 10px 25px;
+    display: flex;
+}
+.jules {
+    width: 30px;
+    height: 30px;
+    border-style: solid;
+    border-color: rgb(255, 255, 255);
+    border-radius: 100px;
+    border-width: .1rem;
+}
+.footbox p {
+    margin-left: 15px;
+    color: rgb(140, 170, 210);
+    font-size: .8rem;
+}
+.footbox p a {
+    color: white;
+    text-decoration: none;
+}
+.footbox p a:hover {
+    color: rgba(0, 255, 255);
+}
